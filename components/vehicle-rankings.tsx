@@ -569,7 +569,7 @@ function VehicleRankings() {
   )
 }
 
-export default function App() {
+export function VehicleRankings() {
   return (
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
       <VehicleRankings />
